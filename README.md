@@ -8,7 +8,7 @@
 
 ``` bash
 $ cd ${お好きなディレクトリ}
-$ git clone gitlab@gitlab.sv.infra:kosuge/hexo-generator-category-feed.git
+$ git clone git@github.com:ninjatools/hexo-generator-category-feed.git
 $ cd ${導入したいblogのトップディレクトリ}
 $ npm install ${hexo-generator-category-feedの絶対パス}
 ```
