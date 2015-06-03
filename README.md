@@ -1,6 +1,6 @@
 # Feed generator
 
-Generate Feed for each category separately with Hexo 3.x compatible.
+Generate Feed for each category separately with Hexo 3.x compatible. It is forked from the original [hexo-generator-category-feed](https://github.com/ninjatools/hexo-generator-category-feed).
 
 ## Install
 
