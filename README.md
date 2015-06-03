@@ -1,21 +1,19 @@
 # Feed generator
 
-カテゴリー毎のAtom 1.0かRss 2.0のFeedを作成するプラグインです。
-
-[hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed)を参考にしました。
+Generate Feed for each category separately with Hexo 3.x compatible.
 
 ## Install
 
 ``` bash
-$ cd ${お好きなディレクトリ}
-$ git clone git@github.com:ninjatools/hexo-generator-category-feed.git
-$ cd ${導入したいblogのトップディレクトリ}
-$ npm install ${hexo-generator-category-feedの絶対パス}
+$ cd /path/to/blog/node_modules
+$ git clone git@github.com:zklhp/hexo-generator-category-feed.git
+$ cd /path/to/blog/
+$ npm install /path/to/blog/node_modules/hexo-generator-category-feed
 ```
 
 ## Options
 
-`_config.yml`に以下の設定を追加してください。
+You can configure this plugin in `_config.yml`.
 
 ``` yaml
 feed:
